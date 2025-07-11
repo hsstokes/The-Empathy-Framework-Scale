@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        @font-face {
+            font-family: 'Orator Std';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Orator Std'), url('https://fonts.cdnfonts.com/s/13889/OratorStd.woff') format('woff');
+        }
+        
         body {
-            font-family: 'Courier New', monospace;
-            background-color: #f0f0f0;
+            font-family: 'Orator Std', 'Courier New', monospace;
+            background-color: #f9f8e9;
             margin: 0;
             padding: 20px;
             background-image:
@@ -29,6 +36,8 @@
             background-color: rgba(255, 255, 255, 0.7);
             padding: 10px;
             border: 1px solid #20B2AA;
+            letter-spacing: 1px;
+            font-weight: normal;
         }
         
         h2 {
@@ -38,6 +47,8 @@
             background-color: rgba(255, 255, 255, 0.7);
             padding: 10px;
             border: 1px solid #20B2AA;
+            letter-spacing: 1px;
+            font-weight: normal;
         }
         
         .dimension-container {
@@ -51,11 +62,12 @@
         
         .dimension-title {
             font-size: 22px;
-            font-weight: bold;
+            font-weight: normal;
             margin-bottom: 5px;
             color: #20B2AA;
             border-bottom: 2px dotted #FFB6C1;
             padding-bottom: 5px;
+            letter-spacing: 0.5px;
         }
         
         .dimension-question {
@@ -91,7 +103,7 @@
             padding: 10px;
             border-radius: 0;
             text-align: center;
-            font-weight: bold;
+            font-weight: normal;
             color: white;
         }
         
@@ -134,12 +146,13 @@
         }
         
         .ai-type-title {
-            font-weight: bold;
+            font-weight: normal;
             font-size: 18px;
             margin-bottom: 10px;
             color: #20B2AA;
             border-bottom: 2px dotted #FFB6C1;
             padding-bottom: 5px;
+            letter-spacing: 0.5px;
         }
         
         .ai-markers {
@@ -164,7 +177,7 @@
         }
         
         .ai-marker-highlight {
-            font-weight: bold;
+            font-weight: normal;
             color: #333;
             background-color: rgba(255, 182, 193, 0.3);
             padding: 0 3px;
@@ -189,12 +202,13 @@
         }
         
         .empathy-title {
-            font-weight: bold;
+            font-weight: normal;
             font-size: 20px;
             margin-bottom: 10px;
             color: #333;
             background-color: rgba(32, 178, 170, 0.2);
             padding: 5px;
+            letter-spacing: 0.5px;
         }
         
         .empathy-description {
@@ -210,7 +224,7 @@
         }
         
         .dimension-name {
-            font-weight: bold;
+            font-weight: normal;
             color: #20B2AA;
         }
         
